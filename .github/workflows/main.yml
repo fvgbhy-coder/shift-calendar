@@ -40,7 +40,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q ShiftCalendarAndroid_MVP.zip -d .
+          unzip -q ShiftCalendarAndroid_MVP_JVM17.zip -d .
           ls -la ShiftCalendarAndroid
 
       - name: Build APK
